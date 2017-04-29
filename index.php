@@ -25,10 +25,9 @@
       // output data of each row
       while($row = $result->fetch_assoc()) {?>
       <tr>
-      <td><?php echo $row['employee_id']?></td>
-      <td><?php echo $row['first_name']?></td>
-      <td><?php echo $row['last_name']?></td>
-      <td><?php echo $row['email']?></td>
+      <td><?php echo $row['nombre_servicio']?></td>
+      <td><?php echo $row['descripcion_servicio']?></td>
+      <td><?php echo $row['imagen_servicio']?></td>
       </tr>
      <?php }
   } else {
