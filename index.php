@@ -10,7 +10,7 @@
 <div class="jumbotron text-center">
 <div class="img" align="center" style= "background-color:white"> 
   	<a> <img class="img-responsive" src="images/sedita1.jpg"></a>
-  </div>
+  </div> 
 </div>
 <table class ="table table-striped">
    <?php
